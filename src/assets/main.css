@@ -1,0 +1,41 @@
+@import './base.css';
+@import 'primeicons/primeicons.css';
+
+body {
+    padding: 0.5rem;
+    /*background-color: var(--body-bg);*/
+    /*color: #fff !important;*/
+}
+/*#app {*/
+/*  max-width: 1280px;*/
+/*  margin: 0 auto;*/
+/*}*/
+
+/*@media (min-width: 1024px) {*/
+/*  !*body {*!*/
+/*  !*  display: flex;*!*/
+/*  !*  place-items: center;*!*/
+/*  !*}*!*/
+
+/*  !*#app {*!*/
+/*  !*  display: grid;*!*/
+/*  !*  !*grid-template-columns: 1fr 1fr;*!*!*/
+/*  !*  padding: 0 2rem;*!*/
+/*  !*}*!*/
+/*}*/
+
+/*.my-card {*/
+/*    background-color: var(--card-bg);*/
+/*    padding: 2rem;*/
+/*    border: 11px solid var(--card-border);*/
+/*    border-radius: 12px;*/
+/*}*/
+
+:root {
+    /*--body-bg: var(--p-surface-950);*/
+    /*--body-bg: var(--vt-c-black);*/
+    /*--color-background: var(--vt-c-black);*/
+    /*--card-bg: var(--p-surface-950);*/
+    /*--card-border: var(--p-surface-700);*/
+    /*--card-text: var(--p-text-100);*/
+}
