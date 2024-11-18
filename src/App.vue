@@ -1,5 +1,9 @@
 <script setup>
 import MainNavBar from '@/components/MainNavBar.vue'
+
+console.log('Current mode:', import.meta.env.MODE);
+console.log('Is development?', import.meta.env.DEV);
+console.log('Is production?', import.meta.env.PROD);
 </script>
 
 <template>
