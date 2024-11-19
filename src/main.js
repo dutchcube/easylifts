@@ -15,7 +15,7 @@ import ToastService from 'primevue/toastservice';
 
 const app = createApp(App)
 
-const MyPreset = definePreset(Aura, {
+const defaultPreset = definePreset(Aura, {
   semantic: {
     primary: {
       50: '{zinc.50}',
@@ -121,9 +121,12 @@ app.use(router)
 
 app.use(PrimeVue, {
   theme: {
-    preset: MyPreset,
+    preset: defaultPreset,
     options: {
-      darkModeSelector: '.dark-mode',
+      cssLayer: {
+        name: 'primevue',
+        order: 'tailwind-base, primevue, tailwind-utilities'
+      }
     }
   }
 })

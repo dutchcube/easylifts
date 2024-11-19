@@ -1,11 +1,23 @@
 @import './base.css';
 @import 'primeicons/primeicons.css';
 
+@layer tailwind-base, primevue, tailwind-utilities;
+
+@layer tailwind-base {
+    @tailwind base;
+}
+
+@layer tailwind-utilities {
+    @tailwind components;
+    @tailwind utilities;
+}
+
 body {
     padding: 0.5rem;
     /*background-color: var(--body-bg);*/
     /*color: #fff !important;*/
 }
+
 /*#app {*/
 /*  max-width: 1280px;*/
 /*  margin: 0 auto;*/

@@ -1,6 +1,6 @@
 {
   "name": "easylifts",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "private": true,
   "type": "module",
   "homepage": "https://dutchcube.github.io/easylifts",
@@ -14,11 +14,11 @@
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
-    "@primevue/themes": "^4.1.0",
+    "@primevue/themes": "^4.2.2",
     "firebase": "^10.14.1",
     "pinia": "^2.2.4",
     "primeicons": "^7.0.0",
-    "primevue": "^4.1.0",
+    "primevue": "^4.2.2",
     "tailwindcss-primeui": "^0.3.4",
     "vue": "^3.5.11",
     "vue-router": "^4.4.5"
